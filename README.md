@@ -16,7 +16,7 @@ Just a simple example of translating angles from one convention to another:
 
 ```python
 from euler_angles_pytorch import (
-	euler_angles_to_rotation_matrices
+	euler_angles_to_rotation_matrices,
 	rotation_matrices_to_euler_angles
 )
 
@@ -44,7 +44,7 @@ array([[[-4.371139e-08, -1.000000e+00,  0.000000e+00],
 ```python
 angles = rotation_matrices_to_euler_angles(
         R, 
-        notation='xyx', 
+        convention='xyx', 
         intrinsic=True,
         right_hand=True,
         degrees=True,
