@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "euler_angles_pytorch"
+version = "0.1.0"
+description = "Stable conversion between Euler angles and rotation matrices (NumPy + PyTorch)"
+readme = "README.md"
+requires-python = ">=3.8"
+
+authors = [
+    { name="Viacheslav Kralin", email="Viacheslav.Kralin@mdc-berlin.de" }
+]
+
+license = { text = "MIT" }
+
+keywords = ["rotation", "euler", "matrix", "pytorch", "gimbal lock", "3d"]
+
+dependencies = [
+    "numpy>=1.21",
+    "torch>=1.10",
+]
+
+[project.urls]
+Repository = "https://github.com/reddismorr/eulerangles_pytorch"
+Issues = "https://github.com/reddismorr/eulerangles_pytorch/issues"

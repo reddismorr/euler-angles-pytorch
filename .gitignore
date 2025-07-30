@@ -1,0 +1,28 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Micromamba/conda/venv environments
+.venv/
+env/
+.conda/
+
+# IDEs/editors
+.vscode/
+.idea/
+
+# Build and packaging
+*.egg-info/
+dist/
+build/
+
+# Test cache
+.pytest_cache/
+.coverage
+
+# Logs
+*.log
