@@ -1,4 +1,4 @@
-# euler_angles_pytorch
+# euler-angles-pytorch
 
 Simple and robust conversion between Euler angles and rotation matrices for NumPy and PyTorch.
 Handles gimbal locks, supports intrinsic/extrinsic, right/left-handed rotations.
