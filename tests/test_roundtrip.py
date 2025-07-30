@@ -2,7 +2,7 @@ import pytest
 import torch
 import numpy as np
 
-from euler_angles_pytorch.euler_angles_pytorch import (
+from euler_angles_pytorch import (
     euler_angles_to_rotation_matrices,
     rotation_matrices_to_euler_angles,
 )
